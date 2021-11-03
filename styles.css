@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+    margin : 0 0;
+    padding : 0 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: lightblue;
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-top : 1rem;
+}
+
+p {
+    font-size :xx-large;
+    text-align: center;
+    margin-top : 10rem;
+    text-align: center;
+    width: 100%;
+
+    
+}
+
+button {
+    background-color : white;
+    padding : 1rem 1rem;
+    border : 1.5px solid black;
+    border-radius: 0.5rem 0.5rem;
+    margin-left : 1rem;
+    font-size: x-large;
+}
+
+#button-wrapper {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-device-width: 30px) {
+
+    #button-wrapper {
+        background-color :yellow;
+        width: 20rem;
+    }
+}
